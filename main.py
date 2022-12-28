@@ -3,7 +3,7 @@ from TruthPy import User
 
 async def main():
     user = User()
-    await user.login("truth@kbots.tech", "X8103561x")
+    await user.login("username", "password")
 
     post = await user.post("Hello World!, This is a test post from TruthPy")
 
